@@ -29,23 +29,23 @@ Set up
 Docker:
 
 1.	Clone the repository.
-git clone ___________
+git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git
 
 2.	Install and launch Docker on your computer.
 
 Virtual Environment:
 
-1.	Clone the repository.
+1.	Clone the repository. https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git
 
 2.	Create the environment. In the root of the repository run:
 
-conda env create --file environment.yaml
+conda env create --file environment.yml
 
 Running the Analysis
 
-conda activate similarity-env
+  [conda activate similarity-env]
 
 From root directory run
 
-nextflow Manskaia_project.nf
+  [nextflow Manskaia_project.nf]
 
