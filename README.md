@@ -32,23 +32,23 @@ To execute the workflow, follow these steps:
 ### Docker:
 
 #### 1.	Clone the repository.
-> git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git
+``` git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git ``` 
 
 #### 2.	Install and launch Docker on your computer.
 
 ### Virtual Environment:
 
-#### 1.	Clone the repository. https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git
+#### 1.	Clone the repository
+``` git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git ``` 
 
 #### 2.	Create the environment. In the root of the repository run:
-
-> conda env create --file environment.yml
+``` conda env create --file environment.yml ```
 
 ### Running the Analysis
 
-> conda activate similarity-env
+Activate the environment
+``` conda activate similarity-env ``` 
 
 From the root directory run
-
-> nextflow Manskaia_project.nf
+``` nextflow Manskaia_project.nf ``` 
 
