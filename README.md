@@ -1,6 +1,6 @@
 Molecular Similarity Analysis Workflow
 This project executes a series of three processes, where the input for each subsequent process is the output of the previous one. The workflow aims to analyze the similarity between small molecules, specifically drug candidates, and known drugs based on their molecular structures using Nextflow.
-![Uploading image.png…]()
+![Slide1](https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity/assets/139388597/3b790e4e-5773-41cc-83ce-b5dc655a4c8e)
 
 Process 1: Calculate Similarity
 The first process, named "calculateSimilarity," operates on a dataset of small molecules represented by molecular smiles. The dataset contains two columns, "Smiles1" and "Smiles2," representing the molecular formulas of known drugs and drug candidates, respectively. The goal is to assess the similarity between these drug candidates and known drugs. If drug candidates exhibit sufficient similarity to known drugs, they can be further explored for characteristics such as affinity with a target, ADME (Absorption, Distribution, Metabolism, Excretion), and more.
