@@ -47,8 +47,10 @@ To execute the workflow, follow these steps:
 ### Running the Analysis
 
 Activate the environment
+
 ``` conda activate similarity-env ``` 
 
 From the root directory run
+
 ``` nextflow Manskaia_project.nf ``` 
 
