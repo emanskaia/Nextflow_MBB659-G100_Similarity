@@ -1,5 +1,7 @@
 Molecular Similarity Analysis Workflow
-This project executes a series of three processes, where the input for each subsequent process is the output of the previous one. The workflow aims to analyze the similarity between small molecules, specifically drug candidates, and known drugs based on their molecular structures using Nextflow.
+
+This project executes a series of three processes, where the input for each subsequent process is the output of the previous one. The workflow aims to analyze the similarity between small molecules, specifically drug candidates, and known drugs based on their molecular structures using Nextflow. For this analysis, a set of molecules, that are known to be good candidates for a drug are compared to another dataset of molecules for similarity. If molecules from the second dataset are similar enough to known drug candidates, they may be added to the conventional drug discovery process. The workflow is described in the picture below in the square box as a part of a bigger process of drug discovery.
+
 ![Slide1](https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity/assets/139388597/3b790e4e-5773-41cc-83ce-b5dc655a4c8e)
 
 Process 1: Calculate Similarity
