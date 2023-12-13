@@ -30,6 +30,8 @@ To execute the workflow, follow these steps:
 
 ## Set up
 
+Follow instructions to install git , conda , nextflow and docker before running this pipeline.
+
 ### Using Conda
 
 #### 1.	Clone the repository.
