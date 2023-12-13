@@ -20,7 +20,7 @@ def calculate_similarity(smiles1, smiles2):
         return None
 
 # Read the CSV file containing pairs of SMILES
-csv_file = "~/data/CS_for_sim.csv"
+csv_file = "~/Nextflow_MBB659-G100_Similarity/data/CS_for_sim.csv"
 molecule_pairs = pd.read_csv(csv_file)
 
 # Add a new column for similarity scores
