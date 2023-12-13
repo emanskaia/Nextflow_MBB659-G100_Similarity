@@ -1,8 +1,14 @@
 # Molecular Similarity Analysis Workflow
 
-Molecular similarity analysis stands as a cornerstone in the realm of drug discovery, offering a systematic approach to unveil compounds with therapeutic potential. This method, rooted in the comparison of molecular structures, plays a pivotal role in identifying potential drug candidates, optimizing lead compounds, and guiding the intricate processes of structure-activity relationship (SAR) studies. By harnessing the power of molecular similarity, researchers can efficiently explore chemical space, predict crucial pharmacological and pharmacokinetic properties, and strategically navigate the complex landscape of drug development. This approach not only enhances the cost and time efficiency of the drug discovery process but also empowers scientists with valuable insights for the rational design and selection of compounds with desired bioactivities. Molecular similarity analysis thus emerges as a fundamental and indispensable tool, contributing to the success and advancement of drug development programs worldwide.
+## Introduction
 
-The primary objective of this research project is to design a filtering process that eliminates unsuitable or less suitable molecules while preserving potential drug candidates in drug discovery process. This project executes a series of three processes, where the input for each subsequent process is the output of the previous one. The workflow aims to analyze the similarity between small molecules, specifically drug candidates, and known drugs based on their molecular structures using Nextflow. For this analysis, a set of molecules, that are known to be good candidates for a drug are compared to another dataset of molecules for similarity. If molecules from the second dataset are similar enough to known drug candidates, they may be added to the conventional drug discovery process. The workflow is described in the picture below in the square box as a part of a bigger process of drug discovery.
+Molecular similarity analysis stands as a cornerstone in the realm of drug discovery, offering a systematic approach to unveil compounds with therapeutic potential. This method, rooted in the comparison of molecular structures, plays a pivotal role in identifying potential drug candidates, optimizing lead compounds, and guiding the intricate processes of structure-activity relationship (SAR) studies. 
+
+By harnessing the power of molecular similarity, researchers can efficiently explore chemical space, predict crucial pharmacological and pharmacokinetic properties, and strategically navigate the complex landscape of drug development. This approach not only enhances the cost and time efficiency of the drug discovery process but also empowers scientists with valuable insights for the rational design and selection of compounds with desired bioactivities. Molecular similarity analysis thus emerges as a fundamental and indispensable tool, contributing to the success and advancement of drug development programs worldwide.
+
+The primary objective of this research project is to design a filtering process that eliminates unsuitable or less suitable molecules while preserving potential drug candidates in drug discovery process. This project executes a series of three processes, where the input for each subsequent process is the output of the previous one. The workflow aims to analyze the similarity between small molecules, specifically drug candidates, and known drugs based on their molecular structures using Nextflow. 
+
+For this analysis, a set of molecules, that are known to be good candidates for a drug are compared to another dataset of molecules for similarity. If molecules from the second dataset are similar enough to known drug candidates, they may be added to the conventional drug discovery process. The workflow is described in the picture below in the square box as a part of a bigger process of drug discovery.
 
 ![Slide1](https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity/assets/139388597/3b790e4e-5773-41cc-83ce-b5dc655a4c8e)
 
@@ -75,6 +81,9 @@ Activate the environment
 From the root directory run
 
 ``` nextflow Manskaia_project.nf ``` 
+
+<img width="468" alt="image" src="https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity/assets/139388597/b8f275eb-8b2b-46ba-a02d-94ccc02d9829">
+
 
 ### Using Docker
 Note: Docker was not running on all the machines, but the Dockerfile is presented in the repository
