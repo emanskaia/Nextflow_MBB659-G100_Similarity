@@ -1,7 +1,8 @@
-name: similarity-env
+name: similarity
 channels:
   - conda-forge
 dependencies:
-  - python=3.8
-  - rdkit
+  - python=3.10
+  - rdkit=2023.9.1
   - seaborn
+  - pandas=2.1.2
