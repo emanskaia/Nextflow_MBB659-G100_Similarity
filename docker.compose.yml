@@ -1,0 +1,22 @@
+services:
+  jupyter-lab:
+    image: sha256:40feea16494163a7a465f0a544747d08229a631add7ae
+    ports:
+      - "8888:8888"
+    volumes:
+      - .:/home/
+    deploy:
+      resources:
+        limits:
+          memory: 5G
+    platform: linux/amd64
+
+  terminal:
+    image: sha256:40feea16494163a7a465f0a544747d08229a631add7ae
+    volumes:
+      - .:/home/
+    deploy:
+      resources:
+        limits:
+          memory: 5G
+    platform: linux/amd64
