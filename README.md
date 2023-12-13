@@ -12,11 +12,12 @@ The first process, named "calculateSimilarity," operates on a dataset of small m
 The script for this process utilizes the RDKit library to calculate similarity scores between pairs of molecules. The output is a file with an additional column containing similarity scores ranked from 0 to 1. To complete this process, a script called runSimScore.py is executed. The input file is provided in the data folder and is called “CS_for_sim.csv”. Additionally, to columns with molecular smiles, there are also columns with information on Dataset, product type, price, supplier, and ID, because the data comes from similarity search from the real vendor database. The output file is called “output.csv” and contains an extra column with a similarity score calculated.
 
 Input file:
+
 <img width="468" alt="image" src="https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity/assets/139388597/45d33e4b-cb92-4b0a-a276-e19691a9d8c1">
 
 Output file:
-<img width="468" alt="image" src="https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity/assets/139388597/7582945c-f8ed-4f22-af1c-fa1035ae9866">
 
+<img width="468" alt="image" src="https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity/assets/139388597/7582945c-f8ed-4f22-af1c-fa1035ae9866">
 
 ## Process 2: Extract Top 10%
 The second process, "extractTop10," takes the calculated similarity scores from Process 1 and extracts the top 10% of values along with their corresponding molecule pairs. These pairs represent the most similar drug candidates to known drugs, which can be further investigated. The scrip is called extractTop10.py, the “output.csv” from process 1 is becoming an input for this process, the generated file is called “top_10_percent.csv”.
