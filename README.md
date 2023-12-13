@@ -41,7 +41,10 @@ To execute the workflow, follow these steps:
 #### 1.	Clone the repository
 ``` git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git ``` 
 
-#### 2.	Create the environment. In the root of the repository run:
+#### 2. Navigate to the project directory
+``` cd Nextflow_MBB659-G100_Similarity ```
+
+#### 3.	Create the environment. In the root of the repository run:
 ``` conda env create --file environment.yml ```
 
 ### Running the Analysis
