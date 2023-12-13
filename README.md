@@ -35,8 +35,6 @@ To execute the workflow, follow these steps:
 #### 1.	Clone the repository.
 ``` git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git ``` 
 
-#### 2.	Install and launch Docker on your computer.
-
 ### Virtual Environment:
 
 #### 1.	Clone the repository
@@ -52,7 +50,7 @@ To execute the workflow, follow these steps:
 
 Activate the environment
 
-``` conda activate similarity-env ``` 
+``` conda activate similarity ``` 
 
 From the root directory run
 
