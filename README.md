@@ -41,7 +41,8 @@ The full list of dependencies is below:
 
 ### Using Conda
 
-#### 1.	Clone the repository.
+#### 1.	Clone the repository in your root folder.
+``` cd ``` #this will redirect you to the root directory
 ``` git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git ``` 
 
 ### Virtual Environment:
