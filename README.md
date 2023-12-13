@@ -82,4 +82,7 @@ From the root directory run
 #### 2. Navigate to the project directory
 ``` cd Nextflow_MBB659-G100_Similarity ```
 
+## References
+1. Warr, W. A., Nicklaus, M. C., Nicolaou, C. A., & Rarey, M. (2022). Journal of Chemical Information and Modeling, 62(9), 2021-2034. (https://doi.org/10.1021/acs.jcim.2c00224).
+2. Torab-Miandoab, A., Poursheikh Asghari, M., Hashemzadeh, N. et al. Analysis and identification of drug similarity through drug side effects and indications data. BMC Med Inform Decis Mak 23, 35 2023. (https://doi.org/10.1186/s12911-023-02133-3)
 
