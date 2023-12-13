@@ -15,7 +15,7 @@ process calculateSimilarity {
     // Specify the script to run
     script:
     """
-    python ~/src/runSimScore.py ${input_csv} ${'output.csv'}
+    python ~/Nextflow_MBB659-G100_Similarity/src/runSimScore.py ${input_csv} ${'output.csv'}
     """
 }
 
@@ -32,7 +32,7 @@ process extractTop10 {
     // Specify the script to run
     script:
     """
-    python ~/src/extractTop10.py ${'output.csv'} ${'top_10_percent.csv'}
+    python ~/Nextflow_MBB659-G100_Similarity/src/extractTop10.py ${'output.csv'} ${'top_10_percent.csv'}
     """
 }
 
@@ -49,7 +49,7 @@ process visualization {
     // Specify the script to run
     script:
     """
-    python ~/src/visualize_top_pairs.py ${'top_10_percent.csv'} ${'distribution_plot.png'}
+    python ~/Nextflow_MBB659-G100_Similarity/src/visualize_top_pairs.py ${'top_10_percent.csv'} ${'distribution_plot.png'}
     """
 }
 
@@ -58,7 +58,7 @@ workflow {
 
     // Execute processes in order
     
-    data = channel.fromPath('~/data/CS_for_sim.csv')
+    data = channel.fromPath('~/Nextflow_MBB659-G100_Similarity/data/CS_for_sim.csv')
     calculateSimilarity(data) \
         | extractTop10 \
         | visualization
