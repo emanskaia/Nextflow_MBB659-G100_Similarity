@@ -30,7 +30,14 @@ To execute the workflow, follow these steps:
 
 ## Set up
 
-Follow instructions to install git , conda , nextflow and docker before running this pipeline.
+Follow instructions to install [git](https://github.com/git-guides/install-git), [conda](https://www.anaconda.com/download#macos), [nextflow](https://www.nextflow.io/docs/latest/getstarted.html#installation) and [docker](https://www.docker.com/get-started/) before running this pipeline.
+The full list of dependencies is below:
+
+  - nextflow 23.10.0
+  - python=3.10
+  - rdkit=2023.9.1
+  - seaborn
+  - pandas=2.1.2
 
 ### Using Conda
 
