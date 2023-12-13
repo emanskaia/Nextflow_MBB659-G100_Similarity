@@ -29,7 +29,8 @@ The three processes are orchestrated in a workflow, where the output of each pro
 To execute the workflow, follow these steps:
 
 ## Set up
-### Docker:
+
+### Using Conda
 
 #### 1.	Clone the repository.
 ``` git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git ``` 
@@ -56,4 +57,17 @@ Activate the environment
 From the root directory run
 
 ``` nextflow Manskaia_project.nf ``` 
+
+### Using Docker
+
+#### 1.	Install and launch Docker on your computer.
+
+### Virtual Environment:
+
+#### 1.	Clone the repository
+``` git clone https://github.com/emanskaia/Nextflow_MBB659-G100_Similarity.git ``` 
+
+#### 2. Navigate to the project directory
+``` cd Nextflow_MBB659-G100_Similarity ```
+
 
